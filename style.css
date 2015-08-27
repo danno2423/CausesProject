@@ -48,7 +48,7 @@ a:hover {
     border-width:1px 0;
     list-style:none;
     margin:0;
-    padding: 40px;
+    padding: 10px;
     text-align:center;
     background-color: grey;
 }
@@ -68,6 +68,10 @@ a:hover {
 	display: block;
 }
 
+.philly {
+  opacity: .5;
+}
+
 footer {
 	margin: 12px 0 0;
 	font-weight: normal;
@@ -75,13 +79,13 @@ footer {
   	text-shadow: 0px 1px 1px rgba(0,0,0, .8);
   	margin: 12px 0 0;
   	background-color: grey;
-    position: absolute;
+    clear: both;
   bottom: 0;
   width: 100%;
 }
 
 footer p {
-	font-size: 1.5em;
+	font-size: 1.0em;
 	text-align: center;
 	text-align: center;
 	font-family: 'times new roman', sans-serif;
@@ -93,8 +97,8 @@ footer p {
   	line-height: 1.3;
   	text-shadow: 0px 1px 1px rgba(0,0,0, .8);
   	margin: 12px 0 0;
-  	background-color: navyblue;
-
+    clear: both;
+  	background-color: navy;
 }
 
 #content {
@@ -120,7 +124,14 @@ footer p {
 	padding: 15px;
 }
 
-
+.table1 {
+  float: center;
+  width: 70%;
+  padding: 5px;
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-align: left;
+}
 
 
 
